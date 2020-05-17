@@ -1,7 +1,4 @@
-<h1 align="center">Welcome to Personal Portfolio 👋</h1>
-
-
-> Mustafa Aydar Full Stack Web & Python Developer
+<h1 align="center">Welcome to Personal Portfolio </h1>
 
 
 A web development portfolio built with gatsbyjs.
