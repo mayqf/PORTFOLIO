@@ -10,10 +10,14 @@ publications:
 resume: 'resume.pdf'
 ---
 
-Hello, I am **Mustafa Aydar**, a Full-Stack Web and Python developer.
 
-I worked for Turkish government more than 10 years for different roles. When I came to the Netherland in 2018, I started programming. Because, I have always been fascinated by software development. 
+Hi there! I am **Mustafa Aydar**, a Full-Stack Web and Python developer from Turkey, but I live in The Netherlands now, more precisely in Amsterdam.
 
-With the Hack Your Future and Pycoders Coding Schools, I improved myself at frontend, backend development, database, Python, basic programming skills and new frameworks. I am passionate about developing and learning new technologies and things to help businesses grow.
+I am a curious, proactive and happy father of a daughter that wants to build a great career by doing one of the things that I love the most: Solving problems. While (and after) obtaining degrees In Systems Engineering, Mechanical Engineering and a masters in Cultural Anthropology, I worked for the Turkish Government co-leading efficient and effective law enforcement projects such as “…”.
 
-Currently, I am looking for a position as a Full Stack Web and Python developer, joining an experienced team and contribute to building great products.
+When I came to The Netherlands I wanted (and needed) a career change. Coincidentally, I stumbled upon HackYourFuture, and I didn’t stopped coding ever since. I could say I’m fascinated by web and software development! 
+
+Besides graduating from HackYourFuture, building the projects that I showcase in this website, getting my Dutch IDs in order and (not less important) settling in this new and amazing country, I followed a Python Programming & Data Science Program at PyCoders. 
+
+What I find most amazing about development is that….
+I am looking forward to join an experienced team to contribute to building great product
