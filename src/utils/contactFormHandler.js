@@ -17,6 +17,6 @@ export default (e) => {
 
   if (xmlhttp.responseText.match(/Thank/g)) {
     form.reset();
-    alert('Thank you! I will respond to your message as soon as possible.');
+    alert('WEBSITE ERROR! - Just joking! Thanks for reaching out. I’ll get back to you as soon as possible.');
   }
 };

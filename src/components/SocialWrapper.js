@@ -5,6 +5,7 @@ import {
   faGithub,
   faLinkedinIn,
   faKaggle,
+  faAndroid
 } from '@fortawesome/free-brands-svg-icons';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
@@ -59,6 +60,10 @@ const SocialWrapper = ({ style }) => {
         href={`//kaggle.com/${socialLinks.kaggle}`}
         icon={faKaggle}
         name="kaggle"
+      />
+       <SocialLink
+        icon={faAndroid}
+        name="android"
       />
     </StyledSocialWrapper>
   );
