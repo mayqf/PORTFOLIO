@@ -39,7 +39,7 @@ const Projects = () => {
     }
   `);
   return (
-    <Section title="projects" subtitle="Check out my latest work">
+    <Section title="projects">
       {projects.edges.map((item) => (
         <ProjectItem
           key={item.node.id}

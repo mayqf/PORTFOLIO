@@ -55,6 +55,7 @@ const HeaderContainer = styled.div`
   h2 {
     font-size: 1.2em;
     line-height: 2em;
+    text-align: center;
 
     span {
       font-weight: 500;
@@ -69,7 +70,7 @@ const Header = () => {
         <h1>
           <Highlighted>Mustafa</Highlighted>
         </h1>
-        <h2>A Full-Stack Web and Python Developer</h2>
+        <h2>Full-Stack and Python Developer based in Amsterdam</h2>
         <SocialWrapper />
       </HeaderContainer>
       <ResumeButton />

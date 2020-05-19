@@ -81,7 +81,6 @@ const Projects = () => {
   return (
     <Section
       title="contact"
-      subtitle="If you are interested in a collaboration, don't hesitate to send me an email."
     >
       <Wrapper>
         <SocialWrapper style={{ maxWidth: '15em', margin: 'auto' }} />

@@ -60,7 +60,7 @@ const Projects = () => {
   const publications = frontmatter.publications;
 
   return (
-    <Section title="about me" subtitle="Get to know me.">
+    <Section title="about me">
       <Wrapper>
         <About dangerouslySetInnerHTML={{ __html: html }} />
         <Others>
