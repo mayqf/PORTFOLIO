@@ -15,11 +15,11 @@ const Span = styled.span`
     position: absolute;
     left: -8%;
     top: 1.5%;
-    height: 100%;
-    width: 116%;
+    height: 110%;
+    width: 120%;
     background-color: ${(props) => props.theme.colors.highlight};
-    border-radius: 2px;
-    transform: rotate(-2deg);
+    border-radius: 10px;
+   
   }
 `;
 

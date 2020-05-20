@@ -1,6 +1,6 @@
 const baseTheme = {
   colors: {
-    red: '#00CED1',
+    red: '#C60139',
     light: '#fafafa',
     dark: '#212121',
     darker: '#1d1d1d',
