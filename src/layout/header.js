@@ -20,11 +20,10 @@ const Wrapper = styled.header`
     content: '';
     height: 100%;
     width: 100%;
-    opacity: 0.05;
+    opacity: 0.1;
     background-image: url(${MLogoBG});
-    transform:rotate(-45deg);
     background-position: center;
-    background-size: 150vh;
+    background-size: 65vh;
     background-repeat: no-repeat;
   }
 
@@ -63,7 +62,7 @@ const HeaderContainer = styled.div`
   }
 `;
 
-const Header = () => {
+const Header = (props) => {
   return (
     <Wrapper>
       <HeaderContainer>

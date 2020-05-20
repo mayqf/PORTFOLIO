@@ -66,6 +66,8 @@ const ImgSummaryContainer = styled.div`
 
 const Image = styled(Img)`
   width: 100%;
+  height:500px;
+
 `;
 
 const Summary = styled.div`
@@ -106,7 +108,7 @@ const ProjectItem = ({ project }) => {
           fluid={image.childImageSharp.fluid}
           alt={`${title} project screenshot`}
           imgStyle={{
-            objectFit: 'contain',
+            objectFit: 'cover',
           }}
           className="img"
         />

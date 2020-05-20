@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { useStaticQuery, graphql } from 'gatsby';
 import Section from '../components/Section';
 import ResumeButton from '../components/ResumeButton';
+import Img from 'gatsby-image';
 
 const Wrapper = styled.div`
   max-width: 45em;
@@ -38,7 +39,14 @@ const Others = styled.div`
     font-size: 0.9em;
   }
 `;
+const Image = styled(Img)`
+  width: 150px;
+  height:150px;
+  margin:auto;
+  border-radius:50%;
+  margin-bottom:30px;
 
+`;
 const Projects = () => {
   const { aboutMe } = useStaticQuery(graphql`
     query {
@@ -48,6 +56,13 @@ const Projects = () => {
             skills
             technologies
             publications
+            image {
+              childImageSharp {
+                fluid {
+                  src
+                }
+              }
+            }
           }
           html
         }
@@ -56,12 +71,18 @@ const Projects = () => {
   `);
 
   const { frontmatter, html } = aboutMe.childMarkdownRemark;
-  const { skills, technologies } = frontmatter;
+  const { skills, technologies,image} = frontmatter;
   const publications = frontmatter.publications;
+  console.log(image);
 
   return (
     <Section title="about me">
       <Wrapper>
+      <Image
+          fluid={image.childImageSharp.fluid}
+          alt='profile'
+          className="img"
+        />
         <About dangerouslySetInnerHTML={{ __html: html }} />
         <Others>
           <h3>Skills</h3>

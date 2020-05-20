@@ -8,6 +8,7 @@ publications:
 
 
 resume: 'resume.pdf'
+image: 'profile.png'
 ---
 
 
