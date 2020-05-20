@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { useTrail, animated } from 'react-spring';
 import NavBtn from './NavBtn';
-import Logo from '../images/NLogo.png';
+import Logo from '../images/MLogo.png';
 
 const Container = styled.nav`
   height: 100%;

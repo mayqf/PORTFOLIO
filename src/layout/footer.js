@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
-import NLogoFooter from '../images/NLogoFooter.svg';
+import MLogoFooter from '../images/MLogoFooter.svg';
 
 const StyledFooter = styled.footer`
   width: 100%;
@@ -40,7 +40,7 @@ const Footer = () => {
 
   return (
     <StyledFooter>
-      <FooterLogo svgSrc={NLogoFooter} alt="footer logo" />
+      <FooterLogo svgSrc={MLogoFooter} alt="footer logo" />
       copyright © {new Date().getFullYear()}, {data.site.siteMetadata.author}
     </StyledFooter>
   );

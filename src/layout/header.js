@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import SocialWrapper from '../components/SocialWrapper';
-import NLogoBG from '../images/NLogoBG.svg';
+import MLogoBG from '../images/MLogoBG.svg';
 import Highlighted from '../components/Highlighted';
 import NavBar from '../components/Navbar';
 import ResumeButton from '../components/ResumeButton';
@@ -21,7 +21,7 @@ const Wrapper = styled.header`
     height: 100%;
     width: 100%;
     opacity: 0.05;
-    background-image: url(${NLogoBG});
+    background-image: url(${MLogoBG});
     transform:rotate(-45deg);
     background-position: center;
     background-size: 150vh;

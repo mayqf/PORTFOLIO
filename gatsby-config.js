@@ -39,7 +39,7 @@ module.exports = {
         background_color: '#212121',
         theme_color: '#212121',
         display: 'minimal-ui',
-        icon: 'src/images/NLogo.png', // This path is relative to the root of the site.
+        icon: 'src/images/MLogo.png', // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
