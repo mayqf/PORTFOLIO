@@ -86,7 +86,7 @@ const Projects = () => {
         <SocialWrapper style={{ maxWidth: '15em', margin: 'auto' }} />
         <Form
           method="POST"
-          action="https://getform.io/f/abda866d-2a7e-4328-b791-4b03b95aec5d"
+          action="https://getform.io/f/24431d7e-9ae9-4c56-a3a8-5bccd308ae91"
           onSubmit={submitHandler}
         >
           <NameEmail>
