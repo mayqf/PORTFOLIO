@@ -40,11 +40,12 @@ const Others = styled.div`
   }
 `;
 const Image = styled(Img)`
-  width: 150px;
-  height:150px;
+  width: 125px;
+  height:125px;
   margin:auto;
   border-radius:50%;
-  margin-bottom:30px;
+  margin-bottom:20px;
+  display: block;
 
 `;
 const Projects = () => {
@@ -58,7 +59,7 @@ const Projects = () => {
             publications
             image {
               childImageSharp {
-                fixed(width: 300, height: 300) {
+                fixed(width: 125, height: 125) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -78,11 +79,13 @@ const Projects = () => {
   return (
     <Section title="about me">
       <Wrapper>
-      <Image
+      <div style={{width:'100%', display:'flex',justifyContent:'center'}}>
+        <Image
           fixed={image.childImageSharp.fixed}
           alt='profile'
           className="img"
         />
+        </div>
         <About dangerouslySetInnerHTML={{ __html: html }} />
         <Others>
           <h3>Skills</h3>
