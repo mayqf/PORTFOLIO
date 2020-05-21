@@ -66,7 +66,7 @@ const DesktopNavbar = ({ theme, links, icons }) => {
     >
       <NavRedLine />
       {trail.map((style, index) => (
-        <NavBtnWrapper style={{ margin: style.margin }} key={links[index]}>
+        <NavBtnWrapper style={{ margin: style.margin }} key={index}>
           <NavBtn
             style={{ ...style, margin: 0 }}
             name={links[index]}

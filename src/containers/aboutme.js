@@ -73,7 +73,7 @@ const Projects = () => {
   const { frontmatter, html } = aboutMe.childMarkdownRemark;
   const { skills, technologies,image} = frontmatter;
   const publications = frontmatter.publications;
-  console.log(image);
+
 
   return (
     <Section title="about me">
@@ -93,14 +93,10 @@ const Projects = () => {
           {publications.map((publication) => {
             const [title, link] = publication.split(':::');
             return (
-              <>
-              <p
-                key={title}
-              >
-                {title}
-              </p>
-              <br/>
-              </>
+              <React.Fragment key={title}>
+                <p>{title}</p>
+                 <br />
+              </React.Fragment>
             );
           })}
         </Others>

@@ -102,7 +102,7 @@ const MobileNavbar = ({ theme, links, icons }) => {
         {trail.map((style, index) => (
           <NavBtnWrapper
             style={{ margin: style.margin, opacity: style.opacity }}
-            key={links[index]}
+            key={index}
           >
             <NavBtn
               style={{
