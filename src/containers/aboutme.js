@@ -58,8 +58,8 @@ const Projects = () => {
             publications
             image {
               childImageSharp {
-                fluid {
-                  src
+                fixed(width: 300, height: 300) {
+                  ...GatsbyImageSharpFixed
                 }
               }
             }
@@ -79,7 +79,7 @@ const Projects = () => {
     <Section title="about me">
       <Wrapper>
       <Image
-          fluid={image.childImageSharp.fluid}
+          fixed={image.childImageSharp.fixed}
           alt='profile'
           className="img"
         />

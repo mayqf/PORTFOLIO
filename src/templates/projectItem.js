@@ -126,9 +126,9 @@ const ProjectItem = ({ project }) => {
           <Link href={source} target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithubAlt} /> Source
           </Link>
-          <Link href={live} target="_blank" rel="noopener noreferrer">
+          {live&&<Link href={live} target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLink} /> Demo
-          </Link>
+          </Link>}
         </span>
       </Details>
     </ProjectWrapper>
@@ -141,7 +141,7 @@ ProjectItem.propTypes = {
       title: PropTypes.string.isRequired,
       stack: PropTypes.string.isRequired,
       source: PropTypes.string.isRequired,
-      live: PropTypes.string.isRequired,
+      live: PropTypes.string,
       image: PropTypes.shape({
         childImageSharp: PropTypes.shape({
           fluid: PropTypes.shape({}).isRequired,
