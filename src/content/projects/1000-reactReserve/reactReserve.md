@@ -1,5 +1,5 @@
 ---
-title: "React Reserve"
+title: "E-Commerce"
 live: 'https://react-reserve.now.sh/'
 source: 'https://github.com/mayqf/E-COMMERCE-PROJECT'
 stack: 'MongoDB - Express.js - React - NextJS - React Semantic UI'
