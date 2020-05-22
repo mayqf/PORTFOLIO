@@ -122,7 +122,7 @@ const Projects = () => {
               required
             />
           </Label>
-          <Button type="submit">SEND</Button>
+          <Button type="submit">SUBMIT</Button>
         </Form>
       </Wrapper>
     </Section>
