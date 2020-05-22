@@ -16,4 +16,4 @@ npm install
 gatsby develop
 ```
 
-
+Many thanks for https://github.com/nazeh
