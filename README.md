@@ -3,10 +3,14 @@
 
 A web development portfolio built with gatsbyjs.
 
+https://mustafaaydar.netlify.app/
+
+
+
 ## Install
 
 ```sh
-git clone git@github.com:mayqf/Portfolio.git
+git clone https://github.com/mayqf/PORTFOLIO.git
 npm install
 ```
 
